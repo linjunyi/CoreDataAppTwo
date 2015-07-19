@@ -7,7 +7,7 @@
 //
 
 #import "ShoppingCartMaster.h"
-#import "NSManagedObject.h"
+#import <coredata/NSManagedObject.h>
 
 
 @implementation ShoppingCartMaster

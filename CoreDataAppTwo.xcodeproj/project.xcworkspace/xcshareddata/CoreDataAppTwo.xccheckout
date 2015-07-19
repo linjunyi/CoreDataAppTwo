@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC605189-5F34-4D59-B0F0-A47D8B80183C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>882B29AB67DB4C29845B572112A9690F1462F2B4</key>
+		<string>https://github.com/linjunyi/CoreDataAppTwo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreDataAppTwo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>882B29AB67DB4C29845B572112A9690F1462F2B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/linjunyi/CoreDataAppTwo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>882B29AB67DB4C29845B572112A9690F1462F2B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>882B29AB67DB4C29845B572112A9690F1462F2B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreDataAppTwo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

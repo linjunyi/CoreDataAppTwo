@@ -15,6 +15,11 @@
 		3E24B3E11B59535A00118ADF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E24B3E01B59535A00118ADF /* Images.xcassets */; };
 		3E24B3E41B59535A00118ADF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E24B3E21B59535A00118ADF /* LaunchScreen.xib */; };
 		3E24B3F01B59535B00118ADF /* CoreDataAppTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24B3EF1B59535B00118ADF /* CoreDataAppTwoTests.m */; };
+		3E24B3FC1B5956CD00118ADF /* ShoppingCartMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24B3FB1B5956CD00118ADF /* ShoppingCartMaster.m */; };
+		3E24B3FF1B5956CE00118ADF /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24B3FE1B5956CE00118ADF /* Customer.m */; };
+		3E24B4021B5956CE00118ADF /* ShoppingCartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24B4011B5956CE00118ADF /* ShoppingCartDetail.m */; };
+		3E24B4041B595BD900118ADF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E24B4031B595BD900118ADF /* CoreData.framework */; };
+		3E24B4081B596B1000118ADF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24B4071B596B1000118ADF /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,15 @@
 		3E24B3E91B59535B00118ADF /* CoreDataAppTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAppTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E24B3EE1B59535B00118ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E24B3EF1B59535B00118ADF /* CoreDataAppTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataAppTwoTests.m; sourceTree = "<group>"; };
+		3E24B3FA1B5956CD00118ADF /* ShoppingCartMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartMaster.h; sourceTree = "<group>"; };
+		3E24B3FB1B5956CD00118ADF /* ShoppingCartMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartMaster.m; sourceTree = "<group>"; };
+		3E24B3FD1B5956CE00118ADF /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		3E24B3FE1B5956CE00118ADF /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		3E24B4001B5956CE00118ADF /* ShoppingCartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartDetail.h; sourceTree = "<group>"; };
+		3E24B4011B5956CE00118ADF /* ShoppingCartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartDetail.m; sourceTree = "<group>"; };
+		3E24B4031B595BD900118ADF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E24B4061B596B1000118ADF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3E24B4071B596B1000118ADF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E24B4041B595BD900118ADF /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +102,14 @@
 				3E24B3D51B59535A00118ADF /* AppDelegate.m */,
 				3E24B3DA1B59535A00118ADF /* ViewController.h */,
 				3E24B3DB1B59535A00118ADF /* ViewController.m */,
+				3E24B4061B596B1000118ADF /* DetailViewController.h */,
+				3E24B4071B596B1000118ADF /* DetailViewController.m */,
 				3E24B3DD1B59535A00118ADF /* Main.storyboard */,
 				3E24B3E01B59535A00118ADF /* Images.xcassets */,
 				3E24B3E21B59535A00118ADF /* LaunchScreen.xib */,
 				3E24B3D71B59535A00118ADF /* CoreDataAppTwo.xcdatamodeld */,
+				3E24B3F91B59568400118ADF /* Core Data */,
+				3E24B4051B595C7200118ADF /* Frameworks */,
 				3E24B3D01B59535A00118ADF /* Supporting Files */,
 			);
 			path = CoreDataAppTwo;
@@ -120,6 +139,27 @@
 				3E24B3EE1B59535B00118ADF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E24B3F91B59568400118ADF /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E24B4001B5956CE00118ADF /* ShoppingCartDetail.h */,
+				3E24B4011B5956CE00118ADF /* ShoppingCartDetail.m */,
+				3E24B3FD1B5956CE00118ADF /* Customer.h */,
+				3E24B3FE1B5956CE00118ADF /* Customer.m */,
+				3E24B3FA1B5956CD00118ADF /* ShoppingCartMaster.h */,
+				3E24B3FB1B5956CD00118ADF /* ShoppingCartMaster.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		3E24B4051B595C7200118ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E24B4031B595BD900118ADF /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E24B4021B5956CE00118ADF /* ShoppingCartDetail.m in Sources */,
+				3E24B3FC1B5956CD00118ADF /* ShoppingCartMaster.m in Sources */,
+				3E24B3FF1B5956CE00118ADF /* Customer.m in Sources */,
+				3E24B4081B596B1000118ADF /* DetailViewController.m in Sources */,
 				3E24B3D91B59535A00118ADF /* CoreDataAppTwo.xcdatamodeld in Sources */,
 				3E24B3D61B59535A00118ADF /* AppDelegate.m in Sources */,
 				3E24B3DC1B59535A00118ADF /* ViewController.m in Sources */,
